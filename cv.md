@@ -1,5 +1,6 @@
 
 ## Muslim Dzhalaludinov ![](https://avatars.githubusercontent.com/u/2232183?s=400&u=4eb6dca584b2fa62bc6c7e0ef22ce670dd16afdf&v=4)
+[![codewars bage](https://www.codewars.com/users/ikzsl/badges/micro)](https://www.codewars.com/users/ikzsl)
 ### Contact
 [![tg](https://www.netsistem.ru/images/ico_telegram.png)](https://tlgg.ru/MuslimDM)
 
@@ -41,5 +42,3 @@
 ### languages
 * Russian - fluent
 * English - pre-Intermediate
-
-[![codewars bage](https://www.codewars.com/users/ikzsl/badges/micro)](https://www.codewars.com/users/ikzsl)
