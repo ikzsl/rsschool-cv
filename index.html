@@ -104,16 +104,19 @@
       </ul>
 
       <h2>My Code</h2>
-      <pre>function makeid(length) {
-        let results = '';
-        const characters = 'ABCDEFGIJKLMNOPQRSTUVWXYZabcdefgijklmnopqrstuvwxyz0123456789';
-        const charactersLength = characters.length;
-        for (let i = 0; i < length; i++) {
-          results += characters.charAt(Math.floor(Math.random() * characters.length));
+
+      <pre class="hljs"
+        style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(40, 42, 54); color: rgb(248, 248, 242);">        <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(255, 121, 198); font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(241, 250, 140); font-weight: 700;">makeid</span>(<span class="hljs-params">length</span>) </span>{
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">let</span> results = <span class="hljs-string" style="color: rgb(241, 250, 140);">''</span>;
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">const</span> characters = <span class="hljs-string" style="color: rgb(241, 250, 140);">'ABCDEFGIJKLMNOPQRSTUVWXYZabcdefgijklmnopqrstuvwxyz0123456789'</span>;
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">const</span> charactersLength = characters.length;
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">for</span> (<span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">let</span> i = <span class="hljs-number">0</span>; i &lt; length; i++) {
+          results += characters.charAt(<span class="hljs-built_in">Math</span>.floor(<span class="hljs-built_in">Math</span>.random() * characters.length));
         }
-        return results;
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">return</span> results;
       }
     }</pre>
+
 
       <h2>Contacts</h2>
       <a id="contacts"></a>
