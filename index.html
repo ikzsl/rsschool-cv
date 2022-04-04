@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  </style>
+  <title>Muslim Dzhalaludinov CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper header__wrapper">
+      <h1 class="header__headline">Muslim Dzhalaludinov</h1>
+      <nav class="header__nav nav">
+        <ul class="nav__menu">
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#about">About Me</a></li>
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#skills">Skills</a></li>
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#education">Education</a></li>
+          <li class="nav__menu-item"><a class="nav__menu-link" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <main class="main">
+    <div class="wrapper">
+      <img src="assets/avatar.png" alt="avatar">
+      <a id="about"></a>
+      <h2>About Me</h2>
+      <ul>
+        <li>
+          <h3>
+            Technologies:
+          </h3>
+          <ul>
+            <li>I know that Javascript and Java are different things;</li>
+            <li>Programmed in basic and pascal;</li>
+            <li>I love clean functions, but I understand that the world is not perfect;</li>
+            <li>I call variables understandable not only for myself;</li>
+            <li>I found the layout on tables and floats;</li>
+            <li>I adhere to GOST, W3C, WHATWG, ecma-262 standards;</li>
+            <li>I make up from scratch, with Bootstrap, Ant Design; semantically, accessible, with BEM and without;</li>
+          </ul>
+        </li>
+        <li>
+          <h3>
+            Processes:
+          </h3>
+          <ul>
+            <li>Know the differences between Git and Github, rebase and cherry pick;</li>
+            <li> I move the cards in Trello, glue the stickers on the board;</li>
+            <li>I know how to negotiate with testers</li>
+            <li>I read a lot, sometimes books;</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>
+            Processes:
+          </h3>
+          <ul>
+            <li>I own Photoshop, Figma, Zeplin, markers, pencils;</li>
+            <li>I can distinguish PNG from JPEG by eye (SVG - with my eyes closed);</li>
+            <li>Understand the difference between UI and UX;</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>Skills</h2>
+      <a id="skills"></a>
+      <ul>
+        <li>HTML</li>
+        <li>CSS, SCSS</li>
+        <li>Javascript, Typescript</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Styled Components</li>
+        <li>Git</li>
+        <li>BEM</li>
+      </ul>
+
+
+      <h2>Education</h2>
+      <a id="education"></a>
+      <ul>
+        <li><a href="https://htmlacademy.ru/profile/muslim">HTML Academy</a></li>
+        <li><a href="https://ru.hexlet.io/u/muslim">Hexlet</a></li>
+      </ul>
+
+      <h2>languages</h2>
+      <ul>
+        <li>Russian - fluent</li>
+        <li>English - pre-Intermediate</li>
+      </ul>
+
+      <h2>My Projects</h2>
+      <ul>
+        <li><a href="https://github.com/ikzsl/multiplayerSnake">Multiplayer Snake</a></li>
+        <li><a href="https://github.com/ikzsl/timer">Timer</a></li>
+      </ul>
+
+      <h2>My Code</h2>
+
+      <pre class="hljs"
+        style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(40, 42, 54); color: rgb(248, 248, 242);">        <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(255, 121, 198); font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(241, 250, 140); font-weight: 700;">makeid</span>(<span class="hljs-params">length</span>) </span>{
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">let</span> results = <span class="hljs-string" style="color: rgb(241, 250, 140);">''</span>;
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">const</span> characters = <span class="hljs-string" style="color: rgb(241, 250, 140);">'ABCDEFGIJKLMNOPQRSTUVWXYZabcdefgijklmnopqrstuvwxyz0123456789'</span>;
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">const</span> charactersLength = characters.length;
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">for</span> (<span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">let</span> i = <span class="hljs-number">0</span>; i &lt; length; i++) {
+          results += characters.charAt(<span class="hljs-built_in">Math</span>.floor(<span class="hljs-built_in">Math</span>.random() * characters.length));
+        }
+        <span class="hljs-keyword" style="color: rgb(139, 233, 253); font-weight: 700;">return</span> results;
+      }
+    }</pre>
+
+
+      <h2>Contacts</h2>
+      <a id="contacts"></a>
+      <ul>
+        <li><a href="mailto:ikzsl@yandex.ru">Email</a></li>
+        <li><a href="https://tlgg.ru/MuslimDM">Telegram</a></li>
+      </ul>
+    </div>
+
+
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <a href="https://github.com/ikzsl">My Github</a>
+      <span>&copy; 2022</span>
+      <a href="https://rs.school/js-stage0/"><img width="100" src="https://rs.school/images/rs_school_js.svg"
+          alt="rs school logo"></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
